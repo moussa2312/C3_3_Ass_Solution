@@ -183,6 +183,60 @@ to: if (pow >= x)
 
 
  #endregion
+
+             #region 10- Write a program to enter marks of five subjects and calculate total, average and percentage.
+
+            //int.TryParse(Console.ReadLine(), out int n1);
+            //int.TryParse(Console.ReadLine(), out int n2);
+            //int.TryParse(Console.ReadLine(), out int n3);
+            //int.TryParse(Console.ReadLine(), out int n4);
+            //int.TryParse(Console.ReadLine(), out int n5);
+
+            //Console.WriteLine($"enter marks of five subjects: {n1} {n2} {n3} {n4} {n5}");
+
+            //int total = n1 + n2 + n3 + n4 + n5,
+            //    average = ((n1 + n2 + n3 + n4 + n5) / 5);
+            //float percentage = (total / 500.0f) * 100; 
+            //Console.WriteLine($"Average = {average}");
+            //Console.WriteLine($"Percentage = {percentage}");
+
+            #endregion
+
+            #region 11- Write a program to create a Simple Calculator.
+
+            
+            //Console.WriteLine("Enter first number:");
+            //int.TryParse(Console.ReadLine(), out int num1);
+
+            //Console.WriteLine("Enter second number:");
+            //int.TryParse(Console.ReadLine(), out int num2);
+
+            //Console.WriteLine("Enter an operator (+, -, /, *):");
+            //char ch = Convert.ToChar(Console.ReadLine());
+
+            //switch (ch)
+            //{
+            //    case '+':
+            //        Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            //        break;
+            //    case '-':
+            //        Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+            //        break;
+            //    case '/':
+            //        if (num2 != 0)  
+            //            Console.WriteLine($"{num1} / {num2} = {num1 / (float)num2}");
+            //        else
+            //            Console.WriteLine("Division by zero is not allowed.");
+            //        break;
+            //    case '*':
+            //        Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid operator.");
+            //        break;
+            //}
+
+            #endregion
         }
     }
 }
