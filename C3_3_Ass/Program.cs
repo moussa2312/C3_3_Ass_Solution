@@ -163,19 +163,19 @@
  #endregion
 
  #region 9- Write a program that takes two integers then prints the power.
- int.TryParse(Console.ReadLine(), out int num1);
- int.TryParse(Console.ReadLine(), out int pow);
- double res = 1;
- int x = 1;
- Console.WriteLine($"Input: {num1} {pow}");
- Console.Write("Output: ");
-to: if (pow >= x)
- {
-     res *= num1;
-     x++;
-     goto to;
- }
- Console.WriteLine(res);
+ //    int.TryParse(Console.ReadLine(), out int num1);
+ //    int.TryParse(Console.ReadLine(), out int pow);
+ //    double res = 1;
+ //    int x = 1;
+ //    Console.WriteLine($"Input: {num1} {pow}");
+ //    Console.Write("Output: ");
+ //to: if (pow >= x)
+ //    {
+ //        res *= num1;
+ //        x++;
+ //        goto to;
+ //    }
+ //    Console.WriteLine(res);
 
  //////Anouther solution 
  ////res += Math.Pow(num1, pow);
@@ -237,6 +237,122 @@ to: if (pow >= x)
             //}
 
             #endregion
+     
+#region 12- Write a program to create a Simple Calculator.
+
+//Console.WriteLine("Enter first number:");
+//int.TryParse(Console.ReadLine(), out int num1);
+
+//Console.WriteLine("Enter second number:");
+//int.TryParse(Console.ReadLine(), out int num2);
+
+//Console.WriteLine("Enter an operator (+, -, /, *):");
+//char ch = Convert.ToChar(Console.ReadLine());
+
+//switch (ch)
+//{
+//    case '+':
+//        Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+//        break;
+//    case '-':
+//        Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+//        break;
+//    case '/':
+//        if (num2 != 0)  
+//            Console.WriteLine($"{num1} / {num2} = {num1 / (float)num2}");
+//        else
+//            Console.WriteLine("Division by zero is not allowed.");
+//        break;
+//    case '*':
+//        Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+//        break;
+//    default:
+//        Console.WriteLine("Invalid operator.");
+//        break;
+//}
+
+#endregion
+
+#region 13- Write a program to allow the user to enter a string and print the REVERSE of it.
+
+//String st = Console.ReadLine();
+//for (int i = st.Length - 1 ; i >= 0; i--)
+//{
+//    Console.Write(st[i]);   
+//}
+
+#endregion
+
+#region 14 - Write a program to allow the user to enter int and print the REVERSED of it.
+
+//int.TryParse(Console.ReadLine(), out int num);
+//string st = num.ToString();
+//for (int i = st.Length - 1; i >= 0; i--)
+//    Console.Write(st[i]);
+
+#endregion
+
+#region 16- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+
+//    int.TryParse(Console.ReadLine(), out int DNum);
+//    string st = ""; 
+//    int n = DNum;
+
+//to: if (n > 0)
+//    {
+//        int x = n / 2;    
+//        int r = n % 2;    
+
+//        if (r == 1)
+//            st = "1" + st; 
+//        else
+//            st = "0" + st; 
+
+//        n = x;           
+//        goto to;        
+//    }
+
+//    Console.WriteLine(st);
+
+
+#endregion
+
+#region 17
+
+//Console.WriteLine("Enter point 1 (x1, y1): ");
+//int x1 = int.Parse(Console.ReadLine());
+//int y1 = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("Enter point 2 (x2, y2): ");
+//int x2 = int.Parse(Console.ReadLine());
+//int y2 = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("Enter point 3 (x3, y3): ");
+//int x3 = int.Parse(Console.ReadLine());
+//int y3 = int.Parse(Console.ReadLine());
+
+//if (((y2 - y1) * (x3 - x2)) == ((y3 - y2) * (x2 - x1)))
+//    Console.WriteLine("these points lie on a single straight line");
+//else
+//    Console.WriteLine("these points not lie on a single straight line");
+
+
+
+#endregion
+
+#region 18
+//Console.WriteLine("Enter the time it took to complete the task ");
+//float.TryParse(Console.ReadLine(), out float num_Hours);
+//if (num_Hours >= 2 && num_Hours <= 3)
+//    Console.WriteLine("highly efficient");
+//else if (num_Hours >= 3 && num_Hours <= 4)
+//    Console.WriteLine("increase your speed");
+//else if (num_Hours >= 4 && num_Hours <= 5)
+//    Console.WriteLine("you need training");
+//else if (num_Hours > 5 )
+//    Console.WriteLine("leave the company");
+#endregion 
+     
         }
     }
 }
